@@ -1,38 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DevShare
+
+Welcome to DevShare! This is a platform for developers to share their coding knowledge, collaborate with others and work together on projects.
 
 ## Getting Started
 
-First, run the development server:
+To get started with DevShare, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1.  Clone this repository using the command `git clone https://github.com/sonicx180/DevShare.git`
+2.  Navigate to the directory where you cloned the repository using the command `cd DevShare`
+3.  Install the required dependencies using the command `yarn && yarn install`
+4.  Start the development server using the command `yarn build && yarn start`
+5.  Open your browser and go to `http://localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+DevShare comes with the following features:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+In Progress 🚧
+-   User authentication 
+-   Share your knowledge with the community by creating and publishing articles
+-   Browse articles and projects published by other users
+-   Like and comment on articles and projects
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Coming Soon 📆
+-   Ability to create and join teams
+-   Share your projects with your team members
+-   Collaborate with your team members using our built-in code editor
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+DevShare uses the following technologies:
 
-To learn more about Next.js, take a look at the following resources:
+-   React
+-   Next.js
+-   TailwindCSS
+-   Prisma
+-   Cockroach DB
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you would like to contribute to DevShare, please follow these steps:
 
-## Deploy on Vercel
+1.  Fork this repository
+2.  Create a new branch using the command `git checkout -b feature/your-feature-name`
+3.  Make your changes and commit them using the command `git commit -m "Your commit message"`
+4.  Push your changes to your forked repository using the command `git push origin feature/your-feature-name`
+5.  Create a pull request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+DevShare is licensed under the BSD 3-Clause License. See the LICENSE file for more information.
