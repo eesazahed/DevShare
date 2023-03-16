@@ -1,7 +1,10 @@
+import CHead from "@/components/CHead";
+
 const Home = () => {
 	return (
 		<>
-			<div className='m-2 p-4'>DevShare</div>
+			<CHead title={"Home"} />
+			<div className='p-4 m-2'>DevShare</div>
 		</>
 	);
 };
