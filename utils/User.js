@@ -1,4 +1,5 @@
 import { numToColor } from "./Color";
+import { randomIntFromInterval } from '@/utils/Numbers';
 
 function getAvatarUrl(name) {
     let names = name.split(" ");

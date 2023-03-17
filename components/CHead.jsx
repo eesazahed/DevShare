@@ -6,7 +6,7 @@ const CHead = ({title}) => {
     return (
         <>
             <Head>
-                <title>{title} | DevShare</title>
+                <title>{`${title} | DevShare`}</title>
                 <Meta />
                 <Favicons/>
             </Head>
