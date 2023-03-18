@@ -1,4 +1,4 @@
-import ProfileBanner from "../Sidebar/ProfileBanner";
+import ProfileBanner from "./Sidebar/ProfileBanner";
 
 const Sidebar = ({ user }) => {
     return (
