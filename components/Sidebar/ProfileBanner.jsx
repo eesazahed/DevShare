@@ -57,23 +57,30 @@ const ProfileBanner = ({ user }) => {
 							<SidebarLink
 								link={'/new'}
 								icon={'/svg/icons/plus.svg'}
-                                text={'New'}
-                                accent
-                            />
-                            <SidebarLink
+								text={'New'}
+								accent
+							/>
+							<SidebarLink
 								link={'/articles'}
 								icon={'/svg/icons/home.svg'}
-                                text={'Home'}
-                            />
-                            <SidebarLink
+								text={'Home'}
+							/>
+							<SidebarLink
 								link={'/articles'}
 								icon={'/svg/icons/book-open.svg'}
-                                text={'Articles'}
-                            />
-                            <SidebarLink
+								text={'Articles'}
+							/>
+							<SidebarLink
 								link={'/teams'}
 								icon={'/svg/icons/users.svg'}
-                                text={'Teams'}
+								text={'Teams'}
+							/>
+						</div>
+						<div className='w-full'>
+							<SidebarLink
+								link={'/help'}
+								icon={'/svg/icons/help-circle.svg'}
+								text={'Help'}
 							/>
 						</div>
 					</div>
