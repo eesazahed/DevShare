@@ -15,9 +15,9 @@ To get started with DevShare, follow these steps:
 ## Features
 
 DevShare comes with the following features:
+-   User authentication 
 
 In Progress 🚧
--   User authentication 
 -   Share your knowledge with the community by creating and publishing articles
 -   Browse articles and projects published by other users
 -   Like and comment on articles and projects

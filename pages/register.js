@@ -77,7 +77,7 @@ const Register = ({ users, params }) => {
 					>
 						<img
 							className='mr-2 w-14 h-14'
-							src='' // TODO: Replace with CDN COLOR PNG LOGO
+							src='/logos/png/icons/Color.png'
 							alt='logo'
 						/>
 						<h3 className='logo'>DevShare</h3>
@@ -167,7 +167,7 @@ const Register = ({ users, params }) => {
 								<p className='text-sm font-light text-gray-500 '>
 									Already have an account?{' '}
 									<Link
-										href='/login'
+										href={'/login'+(params.ref?'?ref='+params.ref:'')}
 										className='font-medium text-blue-600 hover:underline '
 									>
 										Login here

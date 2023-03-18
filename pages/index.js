@@ -12,9 +12,9 @@ const Home = () => {
 	return (
 		<>
 			<CHead title={"Home"} />
-			{/* <Nav loggedIn={getCookie("loggedIn")} user={curr} /> */} //TODO: add nav
+			{/* <Nav /> */}
 			<div className='p-4 m-2'>
-				{/* <Hero /> */} //TODO: add hero
+				{/* <Hero /> */}
 			</div>
 		</>
 	);

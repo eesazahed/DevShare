@@ -3,7 +3,7 @@ import { getUsers } from './api/users';
 import { useState } from 'react';
 import { getCookies, getCookie, setCookie, deleteCookie } from 'cookies-next';
 import Link from 'next/link';
-const Login = ({ users }) => {
+const Login = ({ users, params }) => {
 	if (getCookie('loggedIn') === true) {
 		window.location.href = "/app"; //TODO: ask SonicX180 if app route should be /app or /~
 	}
@@ -25,7 +25,9 @@ const Login = ({ users }) => {
 			if (pass === curr.password) {
 				setCookie('loggedIn', true);
 				setCookie('userId', curr.id);
-				window.location.href = '/';
+				params.ref
+					? (window.location.href = `/${params.ref}`)
+					: (window.location.href = '/');
 			} else {
 				setErrorMsg('Incorrect Credentials!');
 			}
@@ -44,7 +46,7 @@ const Login = ({ users }) => {
 					>
 						<img
 							className='mr-2 w-14 h-14'
-							src='' // TODO: Replace with CDN COLOR PNG LOGO
+							src='/logos/png/icons/Color.png'
 							alt='logo'
 						/>
 						<h3 className='logo'>DevShare</h3>
@@ -102,7 +104,7 @@ const Login = ({ users }) => {
 								<p className='text-sm font-light text-gray-500'>
 									Don&apos;t have an account?{' '}
 									<Link
-										href='/register'
+										href={'/register'+(params.ref?'?ref='+params.ref:'')}
 										className='font-medium text-blue-600 hover:underline '
 									>
 										Register here
@@ -133,6 +135,8 @@ export async function getServerSideProps(context) {
 	return {
 		props: {
 			users: await getUsers(),
+			params: context.query, // used for redirects See Line 63
+
 		},
 	};
 }
