@@ -2,8 +2,8 @@
 
 const Navbar = () => {
   return (
-    <nav>
-
+    <nav className = "bg-[#1E3057]">
+        <h1> <DevShare></DevShare></h1>
     
       </nav>
   )

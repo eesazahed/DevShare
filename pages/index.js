@@ -19,8 +19,8 @@ const Home = () => {
 					variant={'noImg'}
 					title={'Welcome to DevShare'}
 					description={
-						"Welcome to DevShare! This is a Free and Open-Source platform for developers to share their coding knowledge, collaborate with others and work together on projects. There are no dumb questions and all developers are invited."
-					} // TODO: Ask SonicX180 about this
+						"Welcome to DevShare! This is a Free and Open-Source platform for developers to share their coding knowledge, collaborate with others, work together, and more! No questions are too small and all developers are invited."
+					} 
 					primaryBtn={'Get Started'}
 					secondaryBtn={'Learn More'}
 					secondaryBtnLink={'/about'}

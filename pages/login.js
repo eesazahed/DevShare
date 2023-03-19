@@ -5,7 +5,7 @@ import { getCookies, getCookie, setCookie, deleteCookie } from 'cookies-next';
 import Link from 'next/link';
 const Login = ({ users, params }) => {
 	if (getCookie('loggedIn') === true) {
-		window.location.href = "/app"; //TODO: ask SonicX180 if app route should be /app or /~
+		window.location.href = "/app"; 
 	}
 	let allUsers = users.users;
 	const [errorMsg, setErrorMsg] = useState('');
