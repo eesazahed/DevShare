@@ -1,6 +1,6 @@
-# DevShare
+# DevShare  
 
-Welcome to DevShare! This is a platform for developers to share their coding knowledge, collaborate with others and work together on projects.
+Welcome to DevShare <img src = "https://raw.githubusercontent.com/sonicx180/DevShare/main/public/logos/jpg/icons/Color.jpg" >! This is a platform for developers to share their coding knowledge, collaborate with others and work together on projects.
 
 ## Getting Started
 
